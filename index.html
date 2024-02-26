@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="Stylesheet" href="styles.css" />
+    <title>Create Account | REI Co-op</title>
+  </head>
+  <body>
+    <nav>
+      <span>Shop REI</span>
+      <span>REI Outlet</span>
+      <span>Re/Supply</span>
+      <span>REI Adventures</span>
+      <span>Classes & Events</span>
+      <span>Expert Advice</span>
+      <span>Uncommon Path</span>
+      <span>Membership</span>
+    </nav>
+    <div>
+      <span>REI CO-OP Shop</span>
+      <span>
+        <span>Stores</span>
+        <span>Sign in</span>
+        <span>Cart</span>
+      </span>
+    </div>
+    <hr>
+    <div class="FC">
+      <h1>Create a new REI online account</h1>
+      <div>* Required Information</div>
+      <form action="showdata.html" method="get">
+        <div class="IG">
+          <label for="EA">Email Address *</label>
+          <input type="email" id="EA" name="EA" required size="75" />
+        </div>
+        <div class="IG">
+          <label for="FN">First Name *</label>
+          <input type="text" id="FN" name="FN" required size="75" />
+        </div>
+        <div class="IG">
+          <label for="LN">Last Name *</label>
+          <input type="text" id="LN" name="LN" required size="75" />
+        </div>
+        <div class="IG">
+          <label for="P">Password *</label>
+          <input
+            type="password"
+            id="P"
+            name="P"
+            required
+            size="75"
+            minlength="8"
+            maxlength="256"
+          />
+          <div>8 - 256 Characters</div>
+        </div>
+        <div class="IG">
+          <label for="PC">Confirm Password *</label>
+          <input
+            type="password"
+            id="PC"
+            name="PC"
+            required
+            size="75"
+            minlength="8"
+            maxlength="256"
+          />
+        </div>
+        <div class="IG">
+          <input type="checkbox" id="NO" name="NO"/>
+          <label for="NO" class="CL"
+            >Notify me about REI news, offers, and events at my email
+            address.</label
+          >
+        </div>
+        <p>
+          When you create an account, you agree to REI's Terms of Use and
+          acknowledge you have read its Privacy Policy.
+        </p>
+        <div>
+          <label></label>
+          <button type="submit" id="CA" name="CA">Create Account</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
